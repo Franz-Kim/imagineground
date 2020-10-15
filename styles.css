@@ -1,14 +1,14 @@
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+/*The @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');*/
 
 
 *, *::before, *::after{
   box-sizing: border-box;
 }
 .body{
-/*  font-family: "Noto Sans KR", sans-serif;*/
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Noto Sans KR", sans-serif;
+  /*font-family: 'Nanum Myeongjo', serif;*/
   padding: 0;
   margin: 0;
   min-height: 100vh;
@@ -16,7 +16,8 @@
 }
 
 .container{
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Noto Sans KR", sans-serif;
+  /*The font-family: 'Nanum Myeongjo', serif;*/
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40;
