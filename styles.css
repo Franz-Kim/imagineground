@@ -36,7 +36,7 @@
 
   display: flex;
   align-items: center;
-  color: red;
+  color: blue;
   text-decoration: none;
   font-size: 30px;
   font-weight: 600;
@@ -47,6 +47,7 @@
 .main-nav{
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding-right: 2rem;
 
   white-space: nowrap;
   overflow-x: scroll;
@@ -98,13 +99,15 @@
 .artist-list{
   display: flex;
   flex-wrap:wrap;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 .artist-list ul{
   list-style: none;
   margin: 0.5rem;
   padding: 0;
   flex: 0 1 150px;
+  flex-grow: 1;
+  max-width: 200px;
 
 }
 .artist-list li{
