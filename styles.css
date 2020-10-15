@@ -4,6 +4,10 @@
 *, *::before, *::after{
   box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 .body{
   font-family: 'Noto Sans KR', sans-serif;
   padding: 0;
