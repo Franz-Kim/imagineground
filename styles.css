@@ -73,15 +73,14 @@
 
 .artist{
   margin-top: 1rem;
-  margin-left: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .artist-list{
   display: flex;
   flex-wrap:wrap;
   justify-content:space-between;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 .artist-list ul{
   list-style: none;
@@ -91,6 +90,7 @@
 
 }
 .artist-list li{
+  list-style: none;
   margin-top: 0.5rem;
   <!--border: 1px solid red;-->
   padding: 1rem;
