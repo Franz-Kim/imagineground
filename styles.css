@@ -46,10 +46,17 @@
 
 .main-nav{
   margin-top: 1rem;
-  overflow:hidden;
+  margin-bottom: 0.7rem;
+  overflow: auto;
+  overflow-y: hidden;
   white-space: nowrap;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
+.main-nav::-webkit-scrollbar{
+    display: none;
+}
 
 .main-nav a{
   color: inherit;
