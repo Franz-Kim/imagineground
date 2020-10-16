@@ -87,7 +87,7 @@ html{
    max-width: 1200px;
    border: 1px solid #E06336;
    background-color: #E06336;
-   margin-left: auto;
+   margin-left: -2rem;
    margin-right:auto;
 }
 
