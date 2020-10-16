@@ -144,3 +144,11 @@ html{
 .explain-sharedcontents{
     padding-top: 100px;
 }
+
+@media (max-width: 768px) {
+    /* 모바일에 사용될 스트일 시트를 여기에 작성합니다. */
+    .home-main-section .h1 {
+      font-size: 1rem;
+    }
+
+}
