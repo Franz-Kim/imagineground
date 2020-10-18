@@ -149,25 +149,41 @@ html{
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+
+
+
+
+.sharedcontents-explain-text{
+  border: 1px solid #E06336;
+  padding: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+
 .button-explain{
-  /*border: 1px solid red;*/
+/*  border: 1px solid red;*/
+
 }
 .button-explain ul{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  padding: 0;
+  justify-content: space-around;*/
+
 }
 .button-explain li{
   list-style: none;
+
 }
 .button-explain a{
   text-decoration: none;
-  float: left;
-
-
+  float:left;
   padding: 10px;
-  margin: 0.5rem;
   width: 13rem;
+  margin: 0.5rem;
 
   text-align: center;
   font-weight: bold;
