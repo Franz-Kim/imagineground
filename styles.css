@@ -98,6 +98,7 @@ html{
 
 .explain-wrapper{
   margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -139,11 +140,47 @@ html{
 
 .explain-shareground{
     padding-top: 100px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .explain-sharedcontents{
     padding-top: 100px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
+.button-explain{
+  /*border: 1px solid red;*/
+}
+.button-explain ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.button-explain li{
+  list-style: none;
+}
+.button-explain a{
+  text-decoration: none;
+  float: left;
+
+
+  padding: 10px;
+  margin: 0.5rem;
+  width: 13rem;
+
+  text-align: center;
+  font-weight: bold;
+  color: white;
+
+  background: #E06336;
+  border-radius: 10px;
+}
+.button-explain a:hover{
+  background: #C7C7C7;
+}
+
+
 
 @media (max-width: 768px) {
     /* 모바일에 사용될 스트일 시트를 여기에 작성합니다. */
