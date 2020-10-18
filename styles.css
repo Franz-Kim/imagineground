@@ -21,6 +21,7 @@ html{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40;
+
 }
 
 
@@ -31,7 +32,8 @@ html{
   padding-top: 1rem;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1200px;
+
   background-color: white;
 
 }
@@ -88,7 +90,6 @@ html{
    border: 1px solid #E06336;
    background-color: #E06336;
    margin-left: -2rem;
-   margin-right:auto;
 }
 
 
@@ -103,6 +104,10 @@ html{
   background-size:contain;
   background-position: 300px 0;
 */
+}
+
+.home-main-section h1 {
+  font-size: 2rem;
 }
 
 
@@ -218,10 +223,9 @@ html{
 }
 
 
-
 @media (max-width: 768px) {
     .home-main-section h1 {
-      font-size: 1rem;
+      font-size: 1.6rem;
       color: red;
     }
 
