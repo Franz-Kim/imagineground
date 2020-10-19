@@ -93,7 +93,7 @@ html{
   margin: 0 -2rem;
   margin-top: 1rem;
 
-   width: 1200px;
+   width: inherit;
    border: 1px solid #E06336;
    background-color: #E06336;
 
