@@ -22,10 +22,6 @@ html{
   margin: 0 auto;
   padding: 0 40;
 
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(300px);
-  scroll-snap-type: y mandatory;
-
 }
 
 
@@ -108,7 +104,6 @@ html{
 
 
 .home-main-section{
- scroll-snap-align: start;
 }
 
 .explain-wrapper{
