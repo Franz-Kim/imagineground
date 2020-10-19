@@ -44,6 +44,7 @@ html{
 .header-container{
   display: flex;
   flex-wrap: nowrap;
+
 }
 
 .logo{
@@ -58,16 +59,17 @@ html{
 
 
 .main-nav{
-  margin: auto 7.5rem;
+  padding: 1rem 7.5rem;
 
   white-space: nowrap;
-  overflow-x: scroll;
+  overflow: auto;
+/*  overflow-x: scroll;
   overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
+/*  -webkit-overflow-scrolling: touch;
 
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+*/
 }
 
 .main-nav::-webkit-scrollbar{
@@ -93,7 +95,7 @@ html{
 .nav-line{
 
   margin: 0 -2rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 
    width: 1200px;
    border: 1px solid #E06336;
@@ -241,7 +243,7 @@ html{
 
 @media (max-width: 768px) {
     html{
-      font-size: 10px;
+      font-size: 14px;
     }
     .home-main-section h1 {
       font-size: 1.6rem;
