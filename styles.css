@@ -68,14 +68,14 @@ html{
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  justify-content: space-around;
+  justify-content:flex-start;
 }
 .main-nav ul::-webkit-scrollbar{
     display: none;
 }
 
 .main-nav li{
-  padding: 0 0.5rem;
+  padding: 0 2rem;
 }
 .main-nav a{
   color: inherit;
@@ -241,10 +241,10 @@ html{
     html{
       font-size: 14px;
     }
-    .home-main-section h1 {
-      font-size: 1.6rem;
-      color: red;
+    .main-nav li{
+      padding: 0 0.5rem;
     }
+
     .kunstlink iframe{
       height: 400px;
     }
