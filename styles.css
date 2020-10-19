@@ -105,16 +105,14 @@ html{
 
 .home-main-section{
 
-
-
 }
 
 .explain-wrapper{
-/*  margin-top: 2rem;*/
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
-  /*background-image: url(resource/Thur.png);*/
-  background-image: url(resource/mainimg2.jpg);
+  background-image: url(resource/Thur.png);
+  /*background-image: url(resource/mainimg2.jpg);*/
   background-repeat:repeat;
   background-size:cover;
   /*  background-position: 300px 0;*/
@@ -127,7 +125,7 @@ html{
 
 .explain-center-text{
   text-align: center;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255,255,255,0.8);
   padding: 2rem 4rem;
 
 }
@@ -183,11 +181,14 @@ html{
   text-align: left;
 }
 
+
+
 .explain-shareground{
     padding-top: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
 
 
 
@@ -203,8 +204,6 @@ html{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
-
 
 .button-explain{
 /*  border: 1px solid red;*/
@@ -255,4 +254,9 @@ html{
     .kunstlink iframe{
       height: 400px;
     }
+    .button-explain a{
+      font-size: 0.9rem;
+      width: 11rem;
+    }
+
 }
