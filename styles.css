@@ -245,6 +245,12 @@ html{
       padding: 0 0.5rem;
     }
 
+    .explain-wrapper{
+      height: 16rem;
+    }
+    .home-main-section h1 {
+      font-size: 1.6rem;
+    }
     .kunstlink iframe{
       height: 400px;
     }
