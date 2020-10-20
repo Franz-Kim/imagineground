@@ -236,6 +236,32 @@ html{
   background: #C7C7C7;
 }
 
+.footer-class{
+  margin-top: 3rem;
+  font-size: 1rem;
+  padding: 2rem;
+  background-color:#E06336;
+  color: white;
+}
+.footer-class ul{
+  list-style: none;
+  display: flex;
+  margin-top:0;
+  margin-bottom: : 0.5rem;
+  padding: 0;
+}
+.footer-class li{
+  margin-right: 1rem;
+}
+.footer-class a{
+  text-decoration: none;
+  color: inherit;
+}
+.footer-class p{
+  padding: 0;
+  margin: 0;
+}
+
 
 @media (max-width: 768px) {
     html{
