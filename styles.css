@@ -165,18 +165,19 @@ html{
   flex-grow: 1;
   max-width: 200px;
 
+
 }
 
 .artist-list li{
   list-style: none;
-  margin-top: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   text-align: center;
 
   /*border: 1px solid red;*/
-
 }
-
+.artist-list h4{
+  margin: 0;
+}
 .artist-list .artist-list-explain{
   text-align: left;
 }
@@ -238,8 +239,8 @@ html{
 
 .footer-class{
   margin-top: 3rem;
-  font-size: 1rem;
-  padding: 2rem;
+  font-size: 0.8rem;
+  padding: 1rem 2rem;
   background-color:#E06336;
   color: white;
 }
