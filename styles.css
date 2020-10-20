@@ -15,6 +15,15 @@ html{
   min-height: 100vh;
 
 }
+/*자동스크롤*/
+.container{
+  scroll-snap-type: y proximity;
+  scroll-padding: 6rem 0 0 0;
+
+}
+.container section{
+     scroll-snap-align: start;
+}
 
 .container{
   font-family: 'Noto Sans KR', sans-serif;
@@ -101,9 +110,8 @@ html{
 
 
 
-
-
 .home-main-section{
+
 }
 
 .explain-wrapper{
