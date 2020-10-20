@@ -16,7 +16,7 @@ html{
 
 }
 /*자동스크롤*/
-.container{
+/*.container{
   scroll-snap-type: y proximity;
   scroll-padding: 6rem 0 0 0;
 
@@ -24,6 +24,8 @@ html{
 .container section{
      scroll-snap-align: start;
 }
+*/
+
 
 .container{
   font-family: 'Noto Sans KR', sans-serif;
