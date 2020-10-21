@@ -125,8 +125,7 @@ html{
 }
 
 .explain-wrapper{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 
   background-image: url(resource/Thur.png);
   /*background-image: url(resource/mainimg2.jpg);*/
@@ -319,6 +318,7 @@ html{
     }
 
     .explain-wrapper{
+      margin: 0;
       height: 16rem;
     }
     .home-main-section h1 {
