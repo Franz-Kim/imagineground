@@ -134,14 +134,14 @@ html{
   /*  background-position: 300px 0;*/
 
   height: 25rem;
-  display: grid;
+/*  display: grid;
   place-items: center;
-
+*/
 }
 
 .explain-center-text{
 
-  text-align: center;
+  text-align: left;
   background-color: rgba(255,255,255,0.8);
   padding: 2rem 5rem;
 
@@ -150,7 +150,7 @@ html{
 .home-main-section h1 {
   margin: 0;
   font-size: 2rem;
-  background: linear-gradient(-90deg, #F0845D, #BFAD38, #01B2A9, #50A7D0, #7B92C9, #CA6C88);
+  background: linear-gradient(90deg, #F0845D 0%, #BFAD38 10%, #01B2A9 20%, #50A7D0 30%, #7B92C9 40%, #CA6C88 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -185,9 +185,9 @@ html{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   padding: 0;
-  flex: 0 1 150px;
+  flex: 0 1 200px;
   flex-grow: 1;
-  max-width: 200px;
+  max-width: 300px;
 
 
 }
@@ -201,8 +201,14 @@ html{
 }
 .artist-list h4{
   margin: 0;
+  font-size: 1.5rem;
+  font-weight:300;
 }
 .artist-list .artist-list-explain{
+  text-align: left;
+}
+.artist-list .artist-biography{
+  font-size: 14px;
   text-align: left;
 }
 
@@ -213,22 +219,24 @@ html{
     padding-left: 2rem;
     padding-right: 2rem;
 }
-
-
-
-
-.explain-sharedcontents{
-    padding-top: 5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.shareground-horizontal-wrapper{
+  display: flex;
 }
+.shareground-logo{
+  margin: 1rem 2rem;
+display: block;
+  float:left;
 
-.sharedcontents-explain-text{
-  border: 1px solid #E06336;
+}
+.shareground-explain-text{
+  display: block;
+  float: left;
+  /*border: 1px solid #E06336;*/
   padding: 0.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 
 .button-explain{
 /*  border: 1px solid red;*/
@@ -261,12 +269,31 @@ html{
   background: #C7C7C7;
 }
 
+
+
+
+.explain-sharedcontents{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+
+
 .footer-class{
+  display: flex;
   margin-top: 5rem;
   font-size: 0.8rem;
   padding: 1rem 2rem;
-  background-color:#E06336;
-  color: white;
+  background-color:#C6C6C6;
+  color: black;
+}
+
+.footer-wrapper{
+  display: block;
+  float: left;
 }
 .footer-class ul{
   list-style: none;
@@ -285,6 +312,12 @@ html{
 .footer-class p{
   padding: 0;
   margin: 0;
+}
+.provider-logo{
+  margin: auto 0 auto auto;
+  display: block;
+  float: right;
+  border: 1px solid red;
 }
 
 
