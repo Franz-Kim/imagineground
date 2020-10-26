@@ -117,17 +117,7 @@ html{
 
 .explain-wrapper{
   margin: 1rem 0;
-
-  /*background-image: url(resource/Thur.png);*/
-  /*background-image: url(resource/mainimg2.jpg);*/
-  background-repeat:repeat;
-  background-size:cover;
-  /*  background-position: 300px 0;*/
-
   height: 25rem;
-/*  display: grid;
-  place-items: center;
-*/
 }
 
 .explain-center-text{
@@ -148,6 +138,29 @@ html{
 .subtitle-short{
   display: none;
 }
+.main-link{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+}
+.main-link a{
+  text-decoration: none;
+  color: #EA5404;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #EA5404;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.main-link a:hover{
+  border-color: #808080;
+  color: #808080;
+
+}
+
+
+
 
 
 .kunstlink{
@@ -257,7 +270,7 @@ display: block;
   font-weight: bold;
   color: white;
 
-  background: #E06336;
+  background: #EA5404;
   border-radius: 2rem;
 }
 .button-explain a:hover{
