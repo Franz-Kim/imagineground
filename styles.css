@@ -216,8 +216,24 @@ html{
   text-align: justify;
 }
 .artist-list .artist-biography{
-  font-size: 14px;
+  font-size: 0.85rem;
   text-align: left;
+}
+.artist-link{
+  float: left;
+  margin: 0;
+}
+.artist-link a{
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #EA5404;
+  border: 1px solid #EA5404;
+  border-radius: 6px;
+  padding: 0.2rem 0.4rem;
+}
+.artist-link a:hover{
+  border-color: #808080;
+  color:#808080;
 }
 
 
@@ -267,7 +283,7 @@ display: block;
   margin: 0.5rem;
 
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
 
   background: #EA5404;
