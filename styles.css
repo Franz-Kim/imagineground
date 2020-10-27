@@ -437,20 +437,26 @@ display: block;
       height: 500px;
     }
 
+    .shareground-horizontal-wrapper{
+      display:grid;
+    }
     .shareground-logo{
-      display: none;
+      display: flex;
+
+      margin: 2rem auto;
+
     }
     .vertical-line{
       display:none;
     }
     .donation-logo{
-      display: none;
+    margin: 1em auto;
     }
 
 
     .button-explain a{
-      font-size: 0.9rem;
-      width: 11rem;
+      font-size: 0.8rem;
+      width: 10rem;
     }
 
 
