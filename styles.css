@@ -197,7 +197,7 @@ height: auto;
   padding: 0;
   flex: 0 1 300px;
   flex-grow: 1;
-  max-width: 300px;
+  max-width: 300px
 
 
 }
@@ -262,7 +262,10 @@ height: auto;
   margin: 1rem 2rem;
 display: block;
   float:left;
-
+}
+.shareground-logo img{
+  width:350px;
+  height:155px;
 }
 .shareground-explain-text{
   display: block;
@@ -317,6 +320,10 @@ display: block;
   margin: 1.5rem 4rem;
   display: block;
   float:left;
+}
+.donation-logo img{
+  width:154px;
+  height:185px;
 }
 .explain-sharedcontents{
   margin: auto 0;
@@ -437,20 +444,32 @@ display: block;
       height: 500px;
     }
 
+
+
+
+
     .shareground-horizontal-wrapper{
       display:grid;
     }
+
+
     .shareground-logo{
       display: flex;
-
       margin: 2rem auto;
-
+    }
+    .shareground-logo img{
+      width: 260px;
+      height: 115px;
     }
     .vertical-line{
       display:none;
     }
     .donation-logo{
     margin: 1em auto;
+    }
+    .donation-logo img{
+      width:120px;
+      height:144px;
     }
 
 
