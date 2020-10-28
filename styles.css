@@ -317,7 +317,8 @@ display: block;
   margin-top: 2rem;
 }
 .donation-logo{
-  margin: 1.5rem 4rem;
+  margin: 1rem 2rem;
+  padding: 0 6rem;
   display: block;
   float:left;
 }
@@ -343,7 +344,7 @@ display: block;
   display: flex;
   margin-top: 5rem;
   font-size: 0.8rem;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   background-color:#C6C6C6;
   color: black;
 }
@@ -466,6 +467,7 @@ display: block;
     }
     .donation-logo{
     margin: 1em auto;
+    padding: 0;
     }
     .donation-logo img{
       width:120px;
@@ -487,11 +489,15 @@ display: block;
     .footer-class ul{
       display: block;
     }
+    .address{
+      font-style: normal;
+    }
     .provider-logo{
       margin: 1rem 0;
       width: 200px;
       height: 20.4px;
 
     }
+
 
 }
