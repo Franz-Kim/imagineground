@@ -185,6 +185,11 @@ height: auto;
 
 }
 
+.mobile-bar{
+  display: none;
+}
+
+
 .artist-list{
   display: flex;
   flex-wrap:wrap;
@@ -463,16 +468,36 @@ display: block;
 
 
 
+    .artist-title{
+      margin: 0;
+      text-align: center;
+    }
+    .artist-title h2{
+      font-size: 1.7rem;
+      margin-top: 0.3rem;
+    }
+
+    .mobile-bar{
+      display: block;
+      width: 4rem;
+      margin: 0 auto;
+      border-top: 4px solid black;
+    }
 
 
+
+    .explain-shareground h2{
+      text-align: center;
+      font-size: 1.7rem;
+      margin-top: 0.3rem;
+    }
     .shareground-horizontal-wrapper{
       display:grid;
     }
 
-
     .shareground-logo{
       display: flex;
-      margin: 2rem auto;
+      margin: 0 auto;
     }
     .shareground-logo img{
       width: 260px;
@@ -480,6 +505,20 @@ display: block;
     }
     .vertical-line{
       display:none;
+    }
+    .vertical-line2{
+      display: none;
+    }
+    .shareground-explain-text{
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+
+    .explain-sharedcontents h2{
+      text-align: center;
+      font-size: 1.7rem;
+      margin-top: 0.3rem;
     }
     .donation-logo{
     margin: 1em auto;
