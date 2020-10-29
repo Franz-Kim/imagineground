@@ -481,6 +481,7 @@ display: block;
       display: block;
       width: 4rem;
       margin: 0 auto;
+      margin-bottom: 0.7rem;
       border-top: 4px solid black;
     }
 
