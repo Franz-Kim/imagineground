@@ -278,11 +278,16 @@ display: block;
   margin: auto 0;
 }
 .vertical-line{
-  margin: 1.5rem 2rem;
+  margin: 1rem 2rem;
   margin-left: 0;
   border-left: 1px solid #C0C0C0;
 }
 
+.vertical-line-2{
+  margin: 2.2rem 2rem;
+  margin-left: 0;
+  border-left: 1px solid #C0C0C0;
+}
 .button-explain{
 /*  border: 1px solid red;*/
 }
