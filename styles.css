@@ -277,11 +277,7 @@ display: block;
   padding: 0.5rem;
   margin: auto 0;
 }
-.vertical-line{
-  margin: 1rem 2rem;
-  margin-left: 0;
-  border-left: 1px solid #C0C0C0;
-}
+
 
 .vertical-line-2{
   margin: 2.2rem 2rem;
@@ -339,6 +335,11 @@ display: block;
 .donation-logo img{
   width:154px;
   height:185px;
+}
+.vertical-line{
+  margin: 1rem 2rem;
+  margin-left: 0;
+  border-left: 1px solid #C0C0C0;
 }
 .explain-sharedcontents{
   margin: auto 0;
