@@ -14,6 +14,7 @@ html{
   margin: 0;
   min-height: 100vh;
 
+
 }
 
 .container{
@@ -128,6 +129,7 @@ height: auto;
   text-align: left;
   background-color: rgba(255,255,255,0.8);
   padding: 2rem 5rem;
+  word-break: keep-all;
 
 }
 
@@ -233,7 +235,6 @@ height: auto;
 .artist-list .artist-biography{
   font-size: 0.8rem;
   text-align: left;
-  
 }
 .artist-list .artist-link{
   line-height: 2rem;
@@ -355,6 +356,7 @@ display: block;
 }
 .shareground-explain-text{
   text-align: justify;
+  word-break: keep-all;
 }
 
 
