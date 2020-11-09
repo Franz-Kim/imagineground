@@ -283,6 +283,9 @@ display: block;
   /*border: 1px solid #E06336;*/
   padding: 0.5rem;
   margin: auto 0;
+
+  text-align:justify;
+  word-break: keep-all;
 }
 
 
@@ -354,8 +357,15 @@ display: block;
     padding-left: 2rem;
     padding-right: 2rem;
 }
-.shareground-explain-text{
-  text-align: justify;
+
+.shareground-contents-text{
+  display: block;
+  float: left;
+  /*border: 1px solid #E06336;*/
+  padding: 0.5rem;
+  margin: auto 0;
+
+  text-align: left;
   word-break: keep-all;
 }
 .main-link{
