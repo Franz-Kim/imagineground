@@ -368,6 +368,10 @@ display: block;
   text-align: left;
   word-break: keep-all;
 }
+
+.shareground-contents-text h3{
+  margin-top: 0;
+}
 .main-link{
   margin-top :2.5rem;
 }
